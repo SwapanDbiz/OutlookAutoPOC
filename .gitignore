@@ -15,6 +15,11 @@ obj/
 packages/
 *.nupkg
 
+# Libraries and executables
+*.dll
+*.exe
+*.zip
+
 # Test results
 TestResults/
 
