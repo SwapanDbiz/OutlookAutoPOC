@@ -1,0 +1,25 @@
+{
+  "baseUrl": "https://dbizs-ub22-1912-101.zimbraeng.com",
+  "users": {
+    "user1": {
+      "username": "testqadbiz1@dbizs-ub22-1912-101.zimbraeng.com",
+      "password": "Testqa123@"
+    },
+    "user2": {
+      "username": "testqadbiz2@dbizs-ub22-1912-101.zimbraeng.com",
+      "password": "Testqa123@"
+    },
+    "user3": {
+      "username": "testqadbiz3@dbizs-ub22-1912-101.zimbraeng.com",
+      "password": "Testqa123@"
+    },
+    "user4": {
+      "username": "testqadbiz4@dbizs-ub22-1912-101.zimbraeng.com",
+      "password": "Testqa123@"
+    }
+  },
+  "email": {
+    "subject": "Test email",
+    "body": "Hello automation Test"
+  }
+}
