@@ -23,14 +23,14 @@
 
   <ItemGroup>
     <Reference Include="Interop.Redemption">
-      <HintPath>Interop.Redemption.dll</HintPath>
+      <HintPath>lib/Interop.Redemption.dll</HintPath>
       <Private>true</Private>
     </Reference>
   </ItemGroup>
 
   <ItemGroup>
     <!-- Developer runtime payload; keeps the latest Redemption engine in output -->
-    <None Include="Redemption64.dll">
+    <None Include="lib/Redemption64.dll">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
   </ItemGroup>
