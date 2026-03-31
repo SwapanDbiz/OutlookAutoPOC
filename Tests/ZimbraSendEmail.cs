@@ -31,7 +31,7 @@ public class ZimbraSendEmail
         // Generate unique subject with random number
         Random random = new Random();
         int randomNumber = random.Next(10000, 99999);
-        string emailSubject = $"ZimbraSendEmail_Test_{randomNumber}";
+        string emailSubject = $"[Redemption] ZimbraSendEmail_Test_{randomNumber}";
         Console.WriteLine($"[Test] Generated test subject: {emailSubject}");
 
         // Step 1: User1 sends email to User2
@@ -76,7 +76,7 @@ public class ZimbraSendEmail
             // Set properties
             mailItem.To = user2.Username;
             mailItem.Subject = emailSubject;
-            mailItem.Body = $"Test email from user1 to user2\n\nSent at: {DateTime.Now:yyyy-MM-dd HH:mm:ss}";
+            mailItem.Body = $"Test email from user1 to user2 via Windows Outlook\n\nSent at: {DateTime.Now:yyyy-MM-dd HH:mm:ss}\n\nAutomation Source: Redemption";
             mailItem.Importance = 2; // Normal
 
             Console.WriteLine($"[User1] To: {mailItem.To}");
